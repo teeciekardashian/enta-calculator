@@ -1,0 +1,12 @@
+{
+    "name": "enta/calculator",
+    "description": "Package that will execute various calculations",
+    "authors": [
+        {
+            "name": "Tracy McLean",
+            "email": "tracy.mclean@enta.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
