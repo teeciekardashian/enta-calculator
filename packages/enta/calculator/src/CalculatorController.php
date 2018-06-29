@@ -10,7 +10,7 @@ class CalculatorController extends Controller
     //
     public static function add($a, $b){
         $result = $a + $b;
-        return view('calculator::calculate', compact('result'));
+        return View::make('calculator::calculate', compact('result'));
     }
 
     public static function subtract($a, $b){
