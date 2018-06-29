@@ -10,21 +10,21 @@ class CalculatorController extends Controller
     //
     public static function add($a, $b){
         $result = $a + $b;
-        return view('calculator::calculate', compact('result'));
+        return $result;
     }
 
     public static function subtract($a, $b){
         $result = $a - $b;
-        return view('calculator::calculate', compact('result'));
+        return $result;
     }
 
     public static function multiply($a, $b){
         $result = $a * $b;
-        return view('calculator::calculate', compact('result'));
+        return $result;
     }
 
     public static function divide($a, $b){
         $result = $a / $b;
-        return view('calculator::calculate', compact('result'));
+        return $result;
     }
 }
