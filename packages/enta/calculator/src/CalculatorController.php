@@ -8,22 +8,22 @@ use App\Http\Controllers\Controller;
 class CalculatorController extends Controller
 {
     //
-    public function add($a, $b){
+    public static function add($a, $b){
         $result = $a + $b;
         return view('calculator::calculate', compact('result'));
     }
 
-    public function subtract($a, $b){
+    public static function subtract($a, $b){
         $result = $a - $b;
         return view('calculator::calculate', compact('result'));
     }
 
-    public function multiply($a, $b){
+    public static function multiply($a, $b){
         $result = $a * $b;
         return view('calculator::calculate', compact('result'));
     }
 
-    public function divide($a, $b){
+    public static function divide($a, $b){
         $result = $a / $b;
         return view('calculator::calculate', compact('result'));
     }
