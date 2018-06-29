@@ -25,6 +25,8 @@ class CalculatorServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->make('Enta\Calculator\CalculatorController');
-        $this->loadViewsFrom(__DIR__.'/views', 'calculator');
+        $this->loadViewsFrom(__DIR__.'/../views', 'calculator');
     }
 }
+
+
